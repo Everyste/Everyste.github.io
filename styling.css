@@ -1,0 +1,87 @@
+html {
+    /*Background image:*/
+    background-image: url("bg_mountain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size:cover;
+    background-attachment: fixed;
+
+    /*Text styling:*/
+    color:white;
+    font-family:Verdana, sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+.pborder {
+    padding: 15px 25px 15px 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+    font-size:50px;
+
+    border-style: none none solid none;
+    border-color:red;
+    border-width: 3px;
+
+    margin-left:500px;
+    margin-right:500px;
+}
+
+h2 {
+    text-align: center;
+    font-size:35px;
+
+    border-width: 3px;
+
+    margin-left:0px;
+    margin-right:750px;
+}
+
+.content {
+    padding: 5px 5px 5px 5px;
+    border: 5px solid lightgray;
+    background-color: rgba(105, 105, 105, 0.8);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.sidebar {
+    position:fixed;
+    left:0;
+    top:0;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right:5px;
+    padding-right: 115px;
+    padding-bottom: 815px
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+img {
+    float:none;
+}
+
+.sidetext {
+    float:right;
+    padding-right:500px
+}
